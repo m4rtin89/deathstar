@@ -26,12 +26,10 @@
 
 	var OSM_background = L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png').addTo(mymap);
 
-	
 	L.marker([48.524244, 9.055828]).addTo(mymap)
  	.bindPopup('geographical Institute<br>Mainbuilding')
     	.openPopup();
 	
-
 	var markBota = L.marker ([48.523549, 9.057546]).addTo (mymap);
 	markBota.bindPopup("<p>This is the Botanical Garden</p>");
 
